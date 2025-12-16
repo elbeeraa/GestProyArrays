@@ -33,4 +33,8 @@ public class Trabajadores {
             System.out.printf("%2d. %-8s %3d E.\n", i+1,trabajadores[i].getNombre(),trabajadores[i].getPrecioHora());
         }
     }
+
+    public static void main(String[] args) {
+        mostrar();
+    }
 }
