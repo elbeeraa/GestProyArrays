@@ -48,6 +48,7 @@ public class Trabajador {
     public static void main(String[] args) {
         Trabajador t1 = new Trabajador("Juan");
         System.out.println(t1);
+        Trabajador t99 = new Trabajador("Javi");
     }
 
 }
