@@ -45,4 +45,9 @@ public class Trabajador {
                 getPrecioHora());
     }
 
+    public static void main(String[] args) {
+        Trabajador t1 = new Trabajador("Juan");
+        System.out.println(t1);
+    }
+
 }
