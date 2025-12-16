@@ -1,5 +1,7 @@
 public class Trabajador {
-
+ /*
+ dfsdfsfsfsfsfsfs
+  */
     private String nombre;
     private int categoria;
 
