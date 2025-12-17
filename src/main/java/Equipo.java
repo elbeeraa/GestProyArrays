@@ -15,22 +15,6 @@ public class Equipo {
         return Ctes.MAX_NUM_PARTICIPANTES_EQUIPO;
     }
 
-    public Trabajador getParticipante(int numero) {
-        switch (numero) {
-            case 1: return participante1;
-            case 2: return participante2;
-            case 3: return participante3;
-        }
-        return null;
-    }
-
-    public void setParticipante(int numero, Trabajador trabajador) {
-        switch (numero) {
-            case 1: participante1 = trabajador; break;
-            case 2: participante2 = trabajador; break;
-            case 3: participante3 = trabajador; break;
-        }
-    }
 
     public boolean tieneLider() {
         // TODO 21: Saber si el equipo tiene líder
