@@ -7,8 +7,7 @@
     <list default="true" id="b5c1ead9-1065-4710-a083-784ac1810116" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestProy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestProy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Equipo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Trabajador.executor": "Run",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-<<<<<<< HEAD
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tceperosan/__PROG/ut5/GestProyArrays"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Trabajador.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tceperosan/__PROG/ut5/GestProyArrays&quot;
 =======
-    "git-widget-placeholder": "main"
->>>>>>> e724639302a9b38e485ed64077efa59152555321
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; e724639302a9b38e485ed64077efa59152555321
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/uml" />

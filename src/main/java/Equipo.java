@@ -27,8 +27,12 @@ public class Equipo {
     }
 
     public void setLider(int numeroParticipante) {
-        // TODO 23: Asignar el liderazgo a un participante
-
+        // TODO 23: Asignar el liderazgo a un participante ✅
+        for (int i = 0; i < participantes.length; i++) {
+            if(numeroParticipante == i){
+                setLider(numeroParticipante);
+            }
+        }
     }
 
     public int getNumeroParticipantes() {

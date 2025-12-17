@@ -91,9 +91,7 @@ public class App {
     }
 
     private void mostrarProyectos() {
-        // TODO 14: Mostrar proyectos
-
+        // TODO 14: Mostrar proyectos ✅
+        gestProy.mostrarProyectos();
     }
-
-
 }
