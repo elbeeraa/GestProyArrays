@@ -10,6 +10,7 @@ public class Trabajadores {
         new Trabajador("Tasio", 0),
         new Trabajador("Iosu", 0),
     };
+
     public static Trabajador getTrabajador(int numero) {
         if(numero < 1 || numero > trabajadores.length) {
             return null;
