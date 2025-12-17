@@ -38,12 +38,6 @@ public class Equipo {
     public int getNumeroParticipantes() {
         // TODO 24: Calcular el número de participantes utilizando un bucle
         int num = 0;
-        for (int i = 0; i < participantes.length; i++) {
-
-        }
-
-
-
 
         return num;
     }
@@ -53,14 +47,14 @@ public class Equipo {
     }
 
     public boolean addParticipante(Trabajador trabajador) {
-        // TODO 25: Agregar un trabajador como participante si no se ha llegado al límite utilizando un bucle
-
-
-
-
-
-
-
+        // TODO 25: Agregar un trabajador como participante si no se ha llegado al límite utilizando un bucle DONE
+        for (int i = 0; i < participantes.length; i++) {
+            if (participantes[i] != null){
+                continue;
+            }
+            participantes[i] = trabajador;
+            return true;
+        }
         return false;
     }
 
