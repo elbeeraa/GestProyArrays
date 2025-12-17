@@ -3,8 +3,8 @@ public class App {
     private GestProy gestProy;
 
     public App() {
-        // TODO 11: Inicializar atributos
-
+        // TODO 11: Inicializar atributos ✅
+        gestProy = new GestProy();
     }
 
     public void run() {
@@ -67,8 +67,8 @@ public class App {
 
     private void terminarProyecto() {
         int numProyecto = Gui.leerNumero("Indica el número del proyecto a cerrar: ");
-        // TODO 13: Terminar el proyecto
-        if (numProyecto == )
+        // TODO 13: Terminar el proyecto DONE
+        gestProy.terminarProyecto(numProyecto);
         System.out.println("Hecho.");
     }
 
@@ -85,5 +85,6 @@ public class App {
         // TODO 14: Mostrar proyectos
 
     }
+
 
 }

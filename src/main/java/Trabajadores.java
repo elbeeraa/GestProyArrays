@@ -1,6 +1,9 @@
 public class Trabajadores {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e724639302a9b38e485ed64077efa59152555321
     private static Trabajador[] trabajadores = {
         new Trabajador("Aitor", 2),
         new Trabajador("Alba", 2),
@@ -20,7 +23,7 @@ public class Trabajadores {
     }
 
     public static void mostrar() {
-        // TODO 61: Mostrar la información del trabajador según el formato dado utilizando printf
+        // TODO 61: Mostrar la información del trabajador según el formato dado utilizando printf ✅
         // 2 espacios para el número del trabajador, luego un punto, un espacio y la representación del trabajador
         // 12345678901234567890
         //  1. Aitor     90 E.
