@@ -34,7 +34,9 @@ public class Equipo {
     public int getNumeroParticipantes() {
         // TODO 24: Calcular el número de participantes utilizando un bucle
         int num = 0;
+        for (int i = 0; i < participantes.length; i++) {
 
+        }
 
 
 
