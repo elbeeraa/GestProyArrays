@@ -4,7 +4,6 @@ public class App {
 
     public App() {
         // TODO 11: Inicializar atributos
-
     }
 
     public void run() {
@@ -83,7 +82,7 @@ public class App {
 
     private void mostrarProyectos() {
         // TODO 14: Mostrar proyectos
-
+        gestProy.mostrarProyectos();
     }
 
 }
