@@ -36,9 +36,18 @@ public class Equipo {
     }
 
     public int getNumeroParticipantes() {
-        // TODO 24: Calcular el número de participantes utilizando un bucle
+        // TODO 24: Calcular el número de participantes utilizando un bucle ✅
         int num = 0;
 
+<<<<<<< HEAD
+=======
+        for (int i = 0; i < participantes.length; i++) {
+            if (participantes[i] != null){
+                num++;
+            }
+        }
+
+>>>>>>> d22d129ea77aa136d066d971f68d838749ab175a
         return num;
     }
 
@@ -59,23 +68,22 @@ public class Equipo {
     }
 
     public void mostrar() {
-        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle
-
-
-
-
-
+        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle REVISAR
+        for (int i = 0; i < participantes.length; i++) {
+            System.out.printf("%-10s %3d\n", participantes[i].getNombre(), i+1);
+        }
 
     }
 
     public int getPrecioHora() {
         int precio = 0;
-        // TODO 27: Calcular el precio de la hora de todos los participantes del equipo utilizando un bucle
-
-
-
-
-
+        // TODO 27: Calcular el precio de la hora de todos los participantes del equipo utilizando un bucle ✅
+        for (int i = 0; i < participantes.length; i++) {
+            Trabajador trabajador = participantes[i];
+            if(trabajador != null){
+                precio += trabajador.getPrecioHora();
+            }
+        }
 
         return precio;
     }

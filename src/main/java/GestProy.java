@@ -1,12 +1,7 @@
 public class GestProy {
 
     // region atributos
-    private static Proyecto[] proyectos = {
-            new Proyecto ("proyecto1",1000),
-            new Proyecto ("proyecto2",2000),
-            new Proyecto ("proyecto3",3000),
-            new Proyecto ("proyecto4",1000),
-    };
+    private static Proyecto[] proyectos = new Proyecto[10];
     // endregion
 
     // getters y setters
@@ -55,26 +50,27 @@ public class GestProy {
     }
 
     public boolean addHorasProyecto(int numeroProyecto, int numeroHoras) {
-        // TODO 33: Añadir horas al número de proyecto indicado
+        // TODO 33: Añadir horas al número de proyecto indicado ✅
         // Si el proyecto no existe devolver false, sino true tras asignar las horas
+        if (proyectos[numeroProyecto - 1] == null){
+            return false;
+        } else {
+            proyectos[numeroProyecto - 1].addHoras(numeroHoras);
+            return true;
+        }
 
-
-
-
-
-        return true;
     }
 
     public int addProyectoNuevo(String nombreProyecto, int presupuesto) {
-        // TODO 34: Agregar el proyecto si hay hueco utilizando un bucle
+        // TODO 34: Agregar el proyecto si hay hueco utilizando un bucle ✅
 
-
-
-
-
-
-
-
+        for (int i = 0; i < proyectos.length; i++) {
+            if (proyectos[i] == null){
+                proyectos[i].setNombre(nombreProyecto);
+                proyectos[i].setPresupuesto(presupuesto);
+                return i + 1;
+            }
+        }
         return 0;
     }
 
@@ -95,7 +91,7 @@ public class GestProy {
 
     public void mostrarProyectos() {
         // TODO 36: Mostrar los proyectos junto con su número de proyecto utilizando un bucle
-
+        
 
 
 
@@ -105,11 +101,10 @@ public class GestProy {
     }
 
     public void mostrarEquipoProyecto(int numProyecto) {
-        // TODO 37: Mostrar el equipo si existe
-
-
-
-
+        // TODO 37: Mostrar el equipo si existe ✅
+        if (proyectos[numProyecto - 1] != null){
+            proyectos[numProyecto - 1].mostrarEquipo();
+        }
     }
 
     public void setLiderProyecto(int numProyecto, int numParticipante) {
