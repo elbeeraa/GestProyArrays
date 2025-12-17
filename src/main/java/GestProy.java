@@ -25,7 +25,7 @@ public class GestProy {
 
     public void terminarProyecto(int numProyecto) {
         // TODO 31: Terminar proyecto DONE
-        if (proyectos[numProyecto - 1] != null){ proyectos [numProyecto - 1] = null}
+        if (proyectos[numProyecto - 1] != null){ proyectos [numProyecto - 1] = null;}
     }
 
     public boolean puedeHaberMasProyectos() {
