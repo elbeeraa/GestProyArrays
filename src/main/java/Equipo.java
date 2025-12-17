@@ -65,12 +65,10 @@ public class Equipo {
     }
 
     public void mostrar() {
-        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle
-
-
-
-
-
+        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle REVISAR
+        for (int i = 0; i < participantes.length; i++) {
+            System.out.printf("%-10s %3d\n", participantes[i].getNombre(), i+1);
+        }
 
     }
 
