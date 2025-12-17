@@ -46,15 +46,24 @@ public class App {
 
         System.out.println("Define el equipo de desarrollo:");
 
-        // TODO 12: Mientras no se indique la opción 0 para terminar y se puedan añadir participantes hacerlo
+        // TODO 12: Mientras no se indique la opción 0 para terminar y se puedan añadir participantes hacerlo ✅
         // mostrar la lista de trabajadores, leer el número del trabajador y añadirlo al proyecto
         // si no se puede agregar el participante al proyecto salir del bucle
 
+        Trabajadores.mostrar();
 
-
-
-
-
+        int numTrabajador = -1;
+        while(numTrabajador != 0 ){
+            numTrabajador = Gui.leerNumero("Numero de trabajador (0 para terminar): ");
+            Proyecto proyecto = gestProy.getProyecto(numProyecto);
+            Trabajador trabajador = Trabajadores.getTrabajador(numTrabajador);
+            boolean b = proyecto.addParticipante(trabajador);
+            // si no se puede agregar:
+            if(!b){
+                Gui.mostrarTexto("El trabajador no se puede agregar");
+                break;
+            }
+        }
 
 
         System.out.println("Define el líder del equipo:");
@@ -67,8 +76,8 @@ public class App {
 
     private void terminarProyecto() {
         int numProyecto = Gui.leerNumero("Indica el número del proyecto a cerrar: ");
-        // TODO 13: Terminar el proyecto
-
+        // TODO 13: Terminar el proyecto DONE
+        gestProy.terminarProyecto(numProyecto);
         System.out.println("Hecho.");
     }
 
@@ -85,5 +94,6 @@ public class App {
         // TODO 14: Mostrar proyectos
 
     }
+
 
 }

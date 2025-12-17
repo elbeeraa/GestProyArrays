@@ -17,7 +17,7 @@ public class GestProy {
         for (int i = 0; i < proyectos.length; i++) {
             Proyecto pro = proyectos[i];
             if(numero == i){
-
+                pro = proyecto;
             }
         }
     }
@@ -37,15 +37,16 @@ public class GestProy {
     }
 
     public int getCantidadProyectosActivos() {
-        int cantidad = 0;
-        // TODO 32: Contar el número de proyectos activos utilizando un bucle
 
-
-
-
-
-
-        return cantidad;
+        // TODO 32: Contar el número de proyectos activos utilizando un bucle ✅
+        int contador = 0;
+        for (int i = 0; i < proyectos.length; i++) {
+            Proyecto pro = proyectos[i];
+            if(pro != null){
+                contador++;
+            }
+        }
+        return contador;
     }
 
     public boolean addHorasProyecto(int numeroProyecto, int numeroHoras) {
