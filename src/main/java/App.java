@@ -68,7 +68,7 @@ public class App {
     private void terminarProyecto() {
         int numProyecto = Gui.leerNumero("Indica el número del proyecto a cerrar: ");
         // TODO 13: Terminar el proyecto
-
+        if (numProyecto == )
         System.out.println("Hecho.");
     }
 

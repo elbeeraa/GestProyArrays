@@ -1,4 +1,6 @@
 public class Trabajadores {
+
+
     private static Trabajador[] trabajadores = {
         new Trabajador("Aitor", 2),
         new Trabajador("Alba", 2),
