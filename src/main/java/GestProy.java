@@ -24,8 +24,8 @@ public class GestProy {
     // endregion
 
     public void terminarProyecto(int numProyecto) {
-        // TODO 31: Terminar proyecto
-
+        // TODO 31: Terminar proyecto DONE
+        if (proyectos[numProyecto - 1] != null){ proyectos [numProyecto - 1] = null}
     }
 
     public boolean puedeHaberMasProyectos() {
@@ -78,13 +78,18 @@ public class GestProy {
         // TODO 35: Añadir al proyecto el participante validando que el proyecto y el trabajador existe
         // si el trababajador o proyecto no existe devolver false
         // si el proyecto y el trabajador existen pero no admiten más trabajadores devolver false
+        if (numProyecto < 1 || numProyecto > proyectos.length){
+            return false;
+        }
 
+        Proyecto proyecto = proyectos[numProyecto - 1];
+        if (proyecto == null){
+            return false;
+        }
 
-
-
-
-
-
+        if (Trabajadores.getTrabajador(numTrabajador) == null){
+            return false;
+        }
 
         return true;
     }
