@@ -7,7 +7,8 @@ public class Proyecto {
 
     // region constructores
     public Proyecto(String nombre){
-        // TODO 41: Constructor 1 Proyecto
+        // TODO 41: Constructor 1 Proyecto ✅
+        this.nombre = nombre;
 
     }
     public Proyecto(String nombre, int presupuesto) {
