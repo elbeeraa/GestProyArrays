@@ -26,4 +26,7 @@ public class Gui {
         return scanner.nextLine().trim();
     }
 
+    public static void mostrarTexto(String s) {
+        System.out.println(s);
+    }
 }
