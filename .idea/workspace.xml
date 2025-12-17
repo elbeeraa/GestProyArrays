@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e240b5-3a25-460c-acd8-7ae6f640f1cb" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/GestProy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestProy.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Equipo.java" afterDir="false" />
+>>>>>>> 3d5e1fc481aba4d20b3a911e4c4a0ce79321e82a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +27,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Equipo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "git-widget-placeholder": "main"
+>>>>>>> 3d5e1fc481aba4d20b3a911e4c4a0ce79321e82a
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/uml" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Equipo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Equipo" />
+      <module name="GestProy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Equipo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
