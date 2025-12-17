@@ -3,8 +3,8 @@ public class App {
     private GestProy gestProy;
 
     public App() {
-        // TODO 11: Inicializar atributos
-
+        // TODO 11: Inicializar atributos ✅
+        gestProy = new GestProy();
     }
 
     public void run() {

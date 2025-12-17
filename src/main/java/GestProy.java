@@ -1,29 +1,29 @@
 public class GestProy {
 
     // region atributos
-    private Proyecto proyecto1;
-    private Proyecto proyecto2;
-    private Proyecto proyecto3;
-    private Proyecto proyecto4;
+    private static Proyecto[] proyectos = {
+            new Proyecto ("proyecto1",1000),
+            new Proyecto ("proyecto2",2000),
+            new Proyecto ("proyecto3",3000),
+            new Proyecto ("proyecto4",1000),
+    };
     // endregion
 
     // getters y setters
     public Proyecto getProyecto(int numero) {
-        switch (numero){
-            case 1: return proyecto1;
-            case 2: return proyecto2;
-            case 3: return proyecto3;
-            case 4: return proyecto4;
+        if(numero < 1 || numero > proyectos.length) {
+            return null;
         }
-        return null;
+
+        return proyectos[numero-1];
     }
 
     public void setProyecto(int numero, Proyecto proyecto) {
-        switch (numero){
-            case 1: proyecto1 = proyecto; break;
-            case 2: proyecto2 = proyecto; break;
-            case 3: proyecto3 = proyecto; break;
-            case 4: proyecto4 = proyecto; break;
+        for (int i = 0; i < proyectos.length; i++) {
+            Proyecto pro = proyectos[i];
+            if(numero == i){
+
+            }
         }
     }
     // endregion
