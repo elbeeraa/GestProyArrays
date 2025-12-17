@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5c1ead9-1065-4710-a083-784ac1810116" name="Changes" comment="">
+    <list default="true" id="d2e240b5-3a25-460c-acd8-7ae6f640f1cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestProy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestProy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trabajador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trabajadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trabajadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +25,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Trabajador.executor": "Run",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-<<<<<<< HEAD
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tceperosan/__PROG/ut5/GestProyArrays"
-=======
+    "Application.Main.executor": "Run",
     "git-widget-placeholder": "main"
->>>>>>> e724639302a9b38e485ed64077efa59152555321
   }
 }]]></component>
   <component name="RecentsManager">

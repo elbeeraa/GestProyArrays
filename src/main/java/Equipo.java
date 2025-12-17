@@ -17,13 +17,13 @@ public class Equipo {
 
 
     public boolean tieneLider() {
-        // TODO 21: Saber si el equipo tiene líder
-        return false;
+        // TODO 21: Saber si el equipo tiene líder DONE
+        return lider != null;
     }
 
     public Trabajador getLider() {
-        // TODO 22: Devolver quién es el líder
-        return null;
+        // TODO 22: Devolver quién es el líder DONE
+        return lider;
     }
 
     public void setLider(int numeroParticipante) {
