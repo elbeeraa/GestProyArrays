@@ -22,7 +22,7 @@ public class GestProy {
         for (int i = 0; i < proyectos.length; i++) {
             Proyecto pro = proyectos[i];
             if(numero == i){
-
+                pro = proyecto;
             }
         }
     }
