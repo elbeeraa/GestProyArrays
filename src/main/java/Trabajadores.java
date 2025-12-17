@@ -1,5 +1,9 @@
 public class Trabajadores {
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> e724639302a9b38e485ed64077efa59152555321
     private static Trabajador[] trabajadores = {
         new Trabajador("Aitor", 2),
         new Trabajador("Alba", 2),

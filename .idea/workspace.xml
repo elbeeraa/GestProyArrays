@@ -31,7 +31,12 @@
     "Application.Trabajador.executor": "Run",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+<<<<<<< HEAD
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/tceperosan/__PROG/ut5/GestProyArrays"
+=======
     "git-widget-placeholder": "main"
+>>>>>>> e724639302a9b38e485ed64077efa59152555321
   }
 }]]></component>
   <component name="RecentsManager">
